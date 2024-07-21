@@ -31,3 +31,24 @@
     text-align: center;
     border: 2px solid black;
 }
+
+.aboutMe {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 50px;
+}
+
+.hobby-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.hobby {
+    grid-column: span 1;
+    grid-row: span 1;
+    text-align: center;
+    border: 2px solid black;
+}
