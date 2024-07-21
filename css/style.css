@@ -1,0 +1,33 @@
+.topbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar {
+    flex: 1;
+    padding: 10px;
+}
+
+.topbar p {
+    text-align: end;
+}
+
+.topbar h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project {
+    grid-column: span 1;
+    grid-row: span 1;
+    text-align: center;
+    border: 2px solid black;
+}
